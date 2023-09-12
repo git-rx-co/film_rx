@@ -1,0 +1,10 @@
+Route stapes
+
+1.Home
+2.Lectures
+3.Nashid
+
+Home Details
+
+1. banner
+2. 
