@@ -17,12 +17,12 @@
                                     <ul class="navigation">
 
                                         <li v-for="item in navDatas" :key="item"><router-link    to="/home"> {{ item.name }}</router-link></li>
-                                        <!-- <li class="active menu-item-has-children"><a href="#">Home</a>
+                                        <li class="active menu-item-has-children"><a href="#">Home</a>
                                             <ul class="submenu">
                                                 <li class="active"><a href="index.html">Home One</a></li>
                                                 <li><a href="index-2.html">Home Two</a></li>
                                             </ul>
-                                        </li> -->
+                                        </li>
 
                                     </ul>
                                 </div>

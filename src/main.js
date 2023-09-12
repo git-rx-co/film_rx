@@ -1,5 +1,7 @@
 import { createApp } from "vue"
 import App from "./App.vue"
+import Route from "./route/index.js"
+
 import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap-vue/dist/bootstrap-vue.css"
 
@@ -32,4 +34,4 @@ import "./assets/css/owl.carousel.min.css";
 // import "./assets/js/aos.js"
 // import "./assets/js/plugins.js" 
 
-createApp(App).mount('#app')
+createApp(App).use(Route).mount('#app')

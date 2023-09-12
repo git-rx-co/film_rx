@@ -1,15 +1,12 @@
 
 
 <script>
-
-import NavBar from './components/Global/NabBar.vue' 
-import BannerMain from './components/Global/Banner.vue' 
-
+ 
 
 export default {
   name: 'App',
   components: {
-    NavBar,BannerMain
+ 
   }
 }
 </script>
@@ -29,9 +26,7 @@ export default {
 </style>
 
 <template>
-  <NavBar />
-  <BannerMain />
+  <router-view></router-view>
   <h1>Example heading <span class="badge bg-secondary">New</span></h1>
-  
-
+   
 </template>
